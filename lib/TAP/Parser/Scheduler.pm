@@ -54,7 +54,7 @@ The rules data structure is documented more in the next section.
 
 =head2 Rules data structure
 
-The "C<rules>" data structure is the the heart of the scheduler. It allows you
+The "C<rules>" data structure is the heart of the scheduler. It allows you
 to express simple rules like "run all tests in sequence" or "run all tests in
 parallel except these five tests.". However, the rules structure also supports
 glob-style pattern matching and recursive definitions, so you can also express
